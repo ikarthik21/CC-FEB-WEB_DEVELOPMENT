@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+
+} 
+
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+body {
+
+  background: linear-gradient(to left, #131318, #1b1b1b);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+ 
+}
+
+
+.ApplyBack{
+  background-image:linear-gradient( to bottom left,#000000,rgb(43 51 49 / 88%) ),url("/public/images/background.jpg") ;
+  background-position: top center;
+  background-repeat: no-repeat; 
+
+}
+
+body::-webkit-scrollbar {
+  width:  0.60rem;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color:  #67C0BB; 
+  border-radius: 25px;
+}
+ 
+body::-webkit-scrollbar-thumb:hover{
+  background-color:  #67C0BB; 
+
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(45deg);
+  }
+
+  50% {
+    transform: rotate(-20deg);
+  }
+
+  100% {
+    transform: rotate(45deg);
+  }
+}
+
+.wavy-image {
+  display: inline-block;
+  animation: wave 2s ease-in-out infinite;
+}
+
+.centerItems {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+
+.centerItems span {
+  margin-left: 10px;
+  position: relative;
+  top: -5px;
+
+}
+
+
+
+.CenterItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.speColText {
+  color: #67C0BB;
+  margin-left: 8px;
+}
+
+
+#colorspans{
+  color:#67C0BB; 
+}
