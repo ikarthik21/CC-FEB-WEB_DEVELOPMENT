@@ -19,7 +19,7 @@ This project is to make a responsive portfolio website using React.js, and I use
 Clone the project
 
 ```bash
-  git clone https://github.com/ikarthik21/PortFolio.git
+  git clone https://github.com/ikarthik21/CC-FEB-WEB_DEVELOPMENT.git
 ```
 
 
